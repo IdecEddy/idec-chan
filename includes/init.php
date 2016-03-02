@@ -12,10 +12,8 @@ require_once(LIB_PATH.DS."db_connection.php");
 //some functions for doing basic tasks
 require_once(LIB_PATH.DS."functions.php");
 require_once(LIB_PATH.DS."redirect.php");
-require_once(LIB_PATH.DS."sessions.php");
 require_once(LIB_PATH.DS."session.php");
 require_once(LIB_PATH.DS."database.php");
 require_once(LIB_PATH.DS.'user.php');
 require_once(LIB_PATH.DS.'photograph.php');
-require_once(LIB_PATH.DS.'loger.php');
 ?>
