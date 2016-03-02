@@ -1,0 +1,38 @@
+#navbarUL
+{
+list-style-type: none;
+margin: 0;
+padding:0;
+overflow: hidden; 
+background-color: #333;
+}
+#navbarUL > li
+{
+ float:left;
+}
+#navbarUL > li a
+{
+display:block;
+color:#f1efa6;
+text-align: center;
+padding-left: 14px;
+padding-right: 14px;
+padding-top:16px;
+padding-bottom: 16px;
+text-decoration:none;
+}
+#navbarUL > li a:hover:not(.active)
+{
+background-color:#111;
+}
+.active
+{
+background-color:#4caf50;
+}
+#navbar
+{
+font-family: "Fjalla One",sans-serif;
+font-size:16px;
+color:#f1efa6;
+}
+
